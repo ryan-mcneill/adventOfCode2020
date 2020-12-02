@@ -1,6 +1,7 @@
-import { getData } from "./utils/getData";
+import { readFile } from "../utils/readFile";
 
-const input = getData();
+const start = process.hrtime();
+const input = readFile("dayOne").map((i: string): number => parseInt(i));
 
 const result = input.reduce(
   (acc: number, num1: number, index: number, arr: number[]): number => {
@@ -14,3 +15,6 @@ const result = input.reduce(
 );
 
 console.log("And the answer is:", result);
+
+const end = process.hrtime(start);
+console.info("Execution time: %dms", end[1] / 1000000);
