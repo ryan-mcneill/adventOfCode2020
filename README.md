@@ -1,6 +1,6 @@
 # 🎄 Advent of Code 𝟚𝟘𝟚𝟘
 
-> ⭐ [14 / 50]
+> ⭐ [16 / 50]
 
 ## Day 1
 
@@ -39,8 +39,8 @@
 
 ## Day 8
 
-- [ ] Exercise One
-- [ ] Exercise Two
+- [x] Exercise One
+- [x] Exercise Two
 
 ## Day 9
 
