@@ -44,8 +44,8 @@
 
 ## Day 9
 
-- [ ] Exercise One
-- [ ] Exercise Two
+- [x] Exercise One
+- [x] Exercise Two
 
 ## Day 10
 
